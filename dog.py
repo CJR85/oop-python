@@ -4,3 +4,8 @@ class Dog:
         self.breed = breed
         self.location = location
         self.tricks = []
+
+    def bark(self):
+        print(f"{self.name} says WOOF!")
+    
+    
