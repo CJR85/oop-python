@@ -10,8 +10,8 @@ class Dog:
 
     @classmethod
     def register_stray(cls):
-        print(cls)
-        
+        return cls('coming soon', 'unknown', 'unknown')
+
     def bark(self):
         print(f"{self.name} says WOOF!")
     
