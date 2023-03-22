@@ -1,9 +1,12 @@
 class Dog:
+    species = 'canine'
+    num_dogs = 0
     def __init__(self, name, breed, location):
         self.name = name
         self.breed = breed
         self.location = location
         self.tricks = []
+        Dog.num_dogs  += 1
 
     def bark(self):
         print(f"{self.name} says WOOF!")
