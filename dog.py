@@ -8,6 +8,10 @@ class Dog:
         self.tricks = []
         Dog.num_dogs  += 1
 
+    @classmethod
+    def register_stray(cls):
+        print(cls)
+        
     def bark(self):
         print(f"{self.name} says WOOF!")
     
